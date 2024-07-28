@@ -9,8 +9,8 @@ li {
 }
 .columnas {
     column-count: 3;
-    column-gap: 20px;
-    column-rule: 4px double #fff;
+    column-gap: 50px;
+    column-rule: 5px double #fff;
 }
 section {
     min-height: 85vh;
@@ -28,4 +28,7 @@ h1 {
 h2,h3 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
+}
+ul li{
+    font-size: 30px;
 }
