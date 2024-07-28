@@ -1,14 +1,14 @@
 * {
-    font-family: "Nunito", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 300; 
-    color: #fff;
+    box-sizing: border-box;
 }
 li {
     list-style: none;
     margin: 10px 0px;
 }
 .columnas {
-    column-count: 3;
+    column-count: 2;
     column-gap: 50px;
     column-rule: 5px double #fff;
 }
@@ -18,17 +18,27 @@ section {
 article#info {
     padding-top: 200px;
     text-align: center;
+    color: #fff;
 }
-article#trabajos {
+article#trabajos,
+article#habilidades,
+article#contacto{
     padding-top: 100px;
+    color: #fff;
+}
+article#trabajos p{
+    text-align: justify;
 }
 h1 {
     font-family: "Quicksand", sans-serif;
 }
-h2,h3 {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-}
-ul li{
+
+.columnas li{
     font-size: 30px;
+}
+.titulo {
+    color: #f0742f;
+}
+#trabajo02 {
+    padding-top: 200px;
 }
