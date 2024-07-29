@@ -60,3 +60,8 @@ article#contactos {
     padding: 3px;
     border-radius: 3px;
 }
+input,
+textarea,
+footer {
+    color: #fff !important;
+}
