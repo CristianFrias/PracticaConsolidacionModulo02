@@ -9,7 +9,7 @@ li {
 }
 
 section {
-    min-height: 85vh;
+    min-height: 80vh;
 }
 article#info {
     padding-top: 200px;
@@ -29,20 +29,34 @@ h1,li {
 .titulo {
     color: #f0742f;
 }
-#trabajo02,
-article#habilidades {
-    padding-top: 200px;
+#trabajo02{
+    padding-top: 150px;
     color: #fff;
 }
-article#trabajos a:active,
-article#trabajos a:link,
-article#trabajos a:visited{
+article#habilidades,
+article#contactos {
+    padding-top: 250px;
     color: #fff;
 }
-
-article#trabajos a:hover {
+#trabajo01 a:active,
+#trabajo01 a:link,
+#trabajo01 a:visited{
+    color: #fff;
+}
+#trabajo01 a:hover {
     background-color: #fff;
     color: #000 !important;
-    padding: 1.5px;
+    padding: 3px;
+    border-radius: 3px;
+}
+#trabajo02 a:active,
+#trabajo02 a:link,
+#trabajo02 a:visited{
+    color: #f0742f;
+}
+#trabajo02 a:hover {
+    background-color: #f0742f;
+    color: #fff !important;
+    padding: 3px;
     border-radius: 3px;
 }

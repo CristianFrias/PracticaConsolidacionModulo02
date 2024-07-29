@@ -21,7 +21,7 @@
 <body class="bg-black bg-gradient">
 
     <header>
-        <nav class="navbar navbar-dark">
+        <nav class="navbar navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/cf-logo.png" alt="Logo" width="30" height="24"
@@ -67,7 +67,7 @@
         </section>
 
         <section class="container">
-            <article id="trabajos">
+            <!-- <article id="trabajos">
                 <div id="trabajo01" class="row">
                     <div class="col-6 col-md-12 col-sm-12 col-xs-12">
                         <h1 class="display-5 titulo"><strong>ANDESGEAR</strong></h1>
@@ -101,7 +101,44 @@
                         <a class="fs-5" href="https://www.behance.net/gallery/178410891/AKA-Patagonia"
                             target="_blank">Visitar
                             Proyecto</a> 
-
+                    </div>
+                </div>
+            </article> -->
+            <article id="trabajos">
+                <div id="trabajo01" class="row">
+                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                        
+                            <h1 class="display-5"><strong>AKA PATAGONIA</strong></h1>
+                        <p class="fs-5">Creación de una Sitio Web interactivo y amigable para
+                            dispositivos móviles. Esta plataforma brindará a los usuarios la posibilidad de
+                            explorar las ofertas de alojamiento, verificar la disponibilidad de fechas y realizar
+                            reservas de manera sencilla. Además, se destacarán las características únicas de los
+                            lodges y las experiencias, lo que aumentará la visibilidad de la marca y mejorará la
+                            experiencia general del cliente.</p>
+                        <a class="fs-5" href="https://www.behance.net/gallery/178410891/AKA-Patagonia"
+                            target="_blank">Visitar
+                            Proyecto</a> 
+                    </div>
+                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                        <img src="assets/img/akapatagonia.png" class="mx-auto d-block">
+                    </div>
+                </div>
+                <div id="trabajo02" class="row">
+                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                        <img src="assets/img/andesgear.png" class="mx-auto d-block">
+                    </div>
+                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                        <h1 class="display-5 titulo"><strong>ANDESGEAR</strong></h1>
+                        <p class="fs-5"> Con el propósito de aumentar las ventas en
+                            línea, mejorar la experiencia del usuario v
+                            fortalecer la marca, se desarrolló una versión
+                            móvil actualizada de la plataforma de Andesgear. Esto buscaba no solo incrementar
+                            las ventas desde dispositivos móviles, sino
+                            también proporcionar a los usuarios una
+                            experiencia más fluida al explorar y comprar
+                            productos para actividades al aire libre.</p>
+                        <a class="fs-5" href="https://www.behance.net/gallery/179044439/Proyecto-Andesgear" target="_blank">Visitar
+                            Proyecto</a>
                     </div>
                 </div>
             </article>
@@ -111,17 +148,17 @@
             <article id="habilidades">
                 <div class="row">
                     <ul class="col-6 col-sm-12 col-xs-12">
-                        <li class="display-4 fw-semibold">DISEÑO WEB</li>
-                        <li class="display-4 fw-semibold">DISEÑO UX/UI</li>
-                        <li class="display-4 fw-semibold">HTML5</li>
-                        <li class="display-4 fw-semibold">CSS3</li>
+                        <li class="display-4 fw-semibold bg-warning bg-gradient">DISEÑO WEB</li>
+                        <li class="display-4 fw-semibold bg-warning bg-gradient text-white bg-opacity-75">DISEÑO UX/UI</li>
+                        <li class="display-4 fw-semibold bg-warning bg-gradient text-black bg-opacity-50">HTML5</li>
+                        <li class="display-4 fw-semibold bg-warning bg-gradient text-black bg-opacity-25">CSS3</li>
                         
                     </ul>
                     <ul class="col-6 col-sm-12 col-xs-12 der">
-                        <li class="display-4 fw-semibold ">PS</li>
-                        <li class="display-4 fw-semibold ">AI</li>
-                        <li class="display-4 fw-semibold ">VSC</li>
-                        <li class="display-4 fw-semibold ">FIGMA</li>
+                        <li class="display-4 fw-semibold bg-success bg-gradient">BOOTSTRAP</li>
+                        <li class="display-4 fw-semibold bg-success bg-gradient text-white bg-opacity-75 ">VSC</li>
+                        <li class="display-4 fw-semibold bg-success bg-gradient text-black bg-opacity-50">PS</li>
+                        <li class="display-4 fw-semibold bg-success bg-gradient text-black bg-opacity-25">FIGMA</li>
                     </ul>
 
                 </div>
@@ -130,9 +167,9 @@
 
         <section class="container">
             <article id="contacto">
-                <h1>Formulario</h1>
+                <h1></h1>
                 <form class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 col-xl-6">
                         <div class="form-group my-3">
                             <label for="nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" />
@@ -146,13 +183,16 @@
                             <input type="text" class="form-control" id="apellidom" />
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 col-xl-6">
                         <div class="form-group my-3">
-                            <label for="mensaje" class="form-label">Cuéntanos</label>
+                            <label for="mensaje" class="form-label">¿En qué te puedo ayudar?</label>
                             <textarea class="form-control" id="mensaje" rows="8"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                    <div class="d-grid gap-2 mt-2">
+                        
+                        <button class="btn btn-outline-primary" type="button">Contáctame</button>
+                    </div>
                 </form>
             </article>
         </section>

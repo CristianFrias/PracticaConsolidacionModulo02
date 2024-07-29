@@ -33,7 +33,7 @@
         text-align: center;
     }
     section {
-        min-height: 45vh;
+        min-height: 60vh;
     }
 }
 /* Pantalla Small (>=576px) */
@@ -54,7 +54,7 @@
         text-align: center !important;
     }
     section {
-        min-height: 65vh;
+        min-height: 70vh;
     }
 }
 /* Pantalla Medium (>=768px) */
