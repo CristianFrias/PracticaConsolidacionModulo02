@@ -35,6 +35,9 @@
     section {
         min-height: 60vh;
     }
+    article#bajada{
+        margin-top: 100px;
+    }
 }
 /* Pantalla Small (>=576px) */
 @media(min-width:501px) and (max-width:750px){ 
@@ -56,6 +59,9 @@
     section {
         min-height: 70vh;
     }
+    article#bajada{
+        margin-top: 100px;
+    }
 }
 /* Pantalla Medium (>=768px) */
 @media(min-width:751px) and (max-width:1200px){ 
@@ -74,6 +80,10 @@
     .der{
         text-align: right;
     }
+    article#bajada{
+        margin-top: 100px;
+    }
+    
 }
 /*  Pantalla Large (>=992px) */
 @media(min-width:992px) and (max-width:1199px){ 

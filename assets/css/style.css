@@ -11,6 +11,9 @@ li {
 section {
     min-height: 80vh;
 }
+article{
+    min-height: 20vh;
+}
 article#info {
     padding-top: 200px;
     text-align: center;
