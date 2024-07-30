@@ -33,10 +33,14 @@
         text-align: center;
     }
     section {
-        min-height: 60vh;
+        min-height: 70vh;
     }
     article#bajada{
         margin-top: 100px;
+    }
+    article#habilidades,
+    article#contactos{
+        padding-top: 150px;
     }
 }
 /* Pantalla Small (>=576px) */
@@ -62,6 +66,10 @@
     article#bajada{
         margin-top: 100px;
     }
+    article#habilidades,
+    article#contactos{
+        padding-top: 150px;
+    }
 }
 /* Pantalla Medium (>=768px) */
 @media(min-width:751px) and (max-width:1200px){ 
@@ -83,6 +91,7 @@
     article#bajada{
         margin-top: 100px;
     }
+
     
 }
 /*  Pantalla Large (>=992px) */
